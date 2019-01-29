@@ -1,0 +1,46 @@
+body {
+    text-align: left;
+    font-family: 'Gochi Hand', arial;
+    color: rgb(83, 76, 116);
+    font-size: 18px;
+    overflow: hidden;
+    background-image: url(fundo.jpg);
+}
+
+h1 {
+    font-size: 36px;
+    color: rgb(83, 76, 116);
+    width: 500px;
+    text-align: left;
+}
+
+p {
+    color: rgb(118, 110, 153);
+    width: 650px;
+    text-align: left;
+    font-size: 28px;
+}
+
+#inputText {
+    font-size: 24px;
+    text-align: right;
+    position: absolute;
+    right: 5%;
+    top: 9%;
+}
+
+.btn {
+    text-align: right;
+    font-family: 'Gochi Hand', arial;
+    font-size: 20px;
+    color: rgb(83, 76, 116);
+    padding: 5px;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
