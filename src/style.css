@@ -12,21 +12,26 @@ h1 {
     color: rgb(83, 76, 116);
     width: 500px;
     text-align: left;
+    position: relative;
+    left: 9%;
 }
 
 p {
     color: rgb(118, 110, 153);
     width: 650px;
-    text-align: left;
     font-size: 28px;
+    text-align: left;
+    position: relative;
+    left: 5%;
+    bottom: 80%;
 }
 
 #inputText {
     font-size: 24px;
     text-align: right;
     position: absolute;
-    right: 5%;
-    top: 9%;
+    right: 9%;
+    top: 15%;
 }
 
 .btn {

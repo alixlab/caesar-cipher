@@ -11,7 +11,7 @@ function encode() {
 
 function decode() {
     const message = document.getElementById("string").value;
-    const shift = 26 - parseInt(document.getElementById("offset").value);
+    const shift = -(parseInt(document.getElementById("offset").value));
     const newMessage = cypher(shift, message);
 
     document.getElementById("output").innerHTML = newMessage;
@@ -20,6 +20,11 @@ function decode() {
 function cypher(offset, string) {
     let start;
     let newMessage = "";
+    
+    if (offset < 0) {
+        offset = 26 + (offset % 26);
+    }
+
     for (let i = 0; i < string.length; i++) {
         let code = string[i].charCodeAt();
         if (code >= 65 && code <= 90) {
