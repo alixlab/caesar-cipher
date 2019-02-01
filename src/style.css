@@ -5,6 +5,7 @@ body {
     font-size: 18px;
     overflow: hidden;
     background-image: url(fundo.jpg);
+    background-color: rgb(141, 138, 138);
 }
 
 h1 {
@@ -28,10 +29,11 @@ p {
 
 #inputText {
     font-size: 24px;
-    text-align: right;
+    font-family: 'Gochi Hand', arial;
+    float: right;
     position: absolute;
-    right: 9%;
-    top: 15%;
+    top: 16%;
+    right: 10%;
 }
 
 .btn {
@@ -40,12 +42,4 @@ p {
     font-size: 20px;
     color: rgb(83, 76, 116);
     padding: 5px;
-}
-
-.hide {
-    display: none;
-}
-
-.show {
-    display: block;
 }

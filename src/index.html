@@ -12,22 +12,24 @@
 </head>
 
 <body>
-    <div>
-        <br>
-        <h1>Conheça a cifra de César</h1>
-        <p>Júlio César, ditador romano, conhecido por ser um dos maiores comandantes militares da história, escrevia mensagens cifradas, assim as protegia de terceiros e inimigos. Ele deslocava três posições das letras do alfabeto, então a letra "A" passava
-            a ser letra "D", "B" passava a ser "E" e assim por diante.</p>
-        <p>Brinque com seus amigos! Escreva a mensagem cifrada no campo <b> mensagem </b> e no campo <b> chave de deslocamento </b> escolha quantas posições você deseja deslocar, de 1 a 25 (o valor padrão é 3).</p>
-        <br>
-    </div>
-    <div id="inputText">
-        <b>Mensagem a cifrar:</b><br><textarea name="mensagem" id="string" cols="50" rows="7"></textarea>
-        <br><b>Chave de deslocamento:</b><input type="number" id="offset" min="1" max="25" value="3">
-        <br>
-        <button id="clickEncode" class="btn">Cifrar</button>
-        <button id="clickDecode" class="btn">Decifrar</button>
-        <br>
-        <b>Mensagem cifrada:</b><br><textarea name="mensagem" id="output" cols="50" rows="7"></textarea>
+    <div id="content">
+        <div id="mainText">
+            <br>
+            <h1>Conheça a cifra de César</h1>
+            <p>Júlio César, ditador romano, conhecido por ser um dos maiores comandantes militares da história, escrevia mensagens cifradas, assim as protegia de terceiros e inimigos. Ele deslocava três posições das letras do alfabeto, então a letra "A" passava
+                a ser letra "D", "B" passava a ser "E" e assim por diante.</p>
+            <p>Brinque com seus amigos! Escreva a mensagem cifrada no campo <b> mensagem </b> e no campo <b> chave de deslocamento </b> escolha quantas posições você deseja deslocar, de 1 a 25 (o valor padrão é 3).</p>
+            <br>
+        </div>
+        <div id="inputText">
+            <b>Mensagem a cifrar:</b><br><textarea name="mensagem" id="string" cols="50" rows="8"></textarea>
+            <br><b>Chave de deslocamento:</b><input type="number" id="offset" min="1" max="25" value="3">
+            <br>
+            <button id="clickEncode" class="btn">Cifrar</button>
+            <button id="clickDecode" class="btn">Decifrar</button>
+            <br>
+            <b>Mensagem cifrada:</b><br><textarea name="mensagem" id="output" cols="50" rows="8"></textarea>
+        </div>
     </div>
 
     <script src="cipher.js"></script>

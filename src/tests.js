@@ -12,29 +12,29 @@ if (teste2 === "b") {
     console.log("Seu resultado foi " + teste2 + ". Corrija o código.");
 }
 
-let teste3 = (cypher(1, "z"))
-if (teste3 === "a") {
+let teste3 = (cypher(-7, "hijklmnopqrstuvwxyzabcdefg"))
+if (teste3 === "abcdefghijklmnopqrstuvwxyz") {
     console.log("Está indo bem!");
 } else {
     console.log("O resultado " + teste3 + " está errado.");
 }
 
-let teste4 = (cypher(2, "Olá, tudo bem?"))
-if (teste4 === "Qná, vwfq dgo?") {
+let teste4 = (cypher(10, "ABCDEFGHIJKLMNOPQRSTUVWXYZ"))
+if (teste4 === "KLMNOPQRSTUVWXYZABCDEFGHIJ") {
     console.log("Tá tudo perfeito!");
 } else {
     console.log("Errou! Saiu " + teste4 + ". Arrume o código.");
 }
 
-let teste5 = (cypher(-7, "hijklmnopqrstuvwxyzabcdefg"))
-if (teste5 === "abcdefghijklmnopqrstuvwxyz") {
+let teste5 = (cypher(4, "LINA BO BARDI"))
+if (teste5 === "PMRE FS FEVHM" ) {
     console.log("O teste foi um sucesso!");
 } else {
     console.log("Não deu certo. O resultado foi " + teste5 + ". Revise o código.");
 }
 
-let teste6 = (cypher(10, "ABCDEFGHIJKLMNOPQRSTUVWXYZ"))
-if (teste6 === "KLMNOPQRSTUVWXYZABCDEFGHIJ") {
+let teste6 = (cypher(10, ""))
+if (teste6 === "") {
     console.log("Ok!");
 } else {
     console.log("Errou! Saiu " + teste6 + ". Arrume o código.");
